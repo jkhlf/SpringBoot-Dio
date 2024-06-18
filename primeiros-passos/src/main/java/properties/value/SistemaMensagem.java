@@ -15,8 +15,7 @@ public class SistemaMensagem implements CommandLineRunner {
     @Value("${email}")
     private String email;
     @Value("${telefones}")
-    private List<Long> telefones =
-            new ArrayList<>(Arrays.asList(new Long[]{11956781254L}));
+    private List<Long> telefones;
 
     @Override
     public void run(String... args) throws Exception {
